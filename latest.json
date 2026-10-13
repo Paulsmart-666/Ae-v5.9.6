@@ -1,6 +1,6 @@
 {
-    "zip_url":  "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.8.9/ae-efficiency-tool-v5.8.9.zip",
-    "version":  "5.8.9",
-    "zip_size":  341099,
-    "changelog":  "Fixed: 修复部分用户AE连接失败，改回ScriptPath自动加载host.jsx"
+    "zip_url":  "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.9.0/ae-efficiency-tool-v5.9.0.zip",
+    "version":  "5.9.0",
+    "zip_size":  340895,
+    "changelog":  "Fixed: 修复在线更新路径问题，确保用户级更新路径正确"
 }
