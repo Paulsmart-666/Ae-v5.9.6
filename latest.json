@@ -1,1 +1,1 @@
-{"zip_url":"https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.9.0/ae-efficiency-tool-v5.9.0.zip","version":"5.9.0","zip_size":340895,"changelog":"回退至 v5.9.0：移除手指动画功能，功能集与 v5.9.0 一致"}
+{"zip_url":"https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.9.0/ae-efficiency-tool-v5.9.0.zip","version":"5.9.0","zip_size":340895,"changelog":"Fixed: 修复在线更新路径问题，确保用户级更新路径正确"}
