@@ -1,1 +1,1 @@
-{"zip_url":"https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.9.0/ae-efficiency-tool-v5.9.0.zip","version":"5.9.0","zip_size":340895,"changelog":"Fixed: 修复在线更新路径问题，确保用户级更新路径正确"}
+{"zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.9.1/ae-efficiency-tool-v5.9.1.zip", "version": "5.9.1", "zip_size": 226726, "changelog": "Changed: 恢复发版强制测试闸门（104 项断言，覆盖导出帧/授权重校验/字幕/更新器安全/桥接契约），单测闸门恢复三测试强制必跑；不影响面板功能。"}
