@@ -1,6 +1,6 @@
 {
     "zip_url":  "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v6.0.0/ae-efficiency-tool-v6.0.0.zip",
     "version":  "6.0.0",
-    "zip_size":  278429,
+    "zip_size":  265234,
     "changelog":  "Added: 新增「手指动画」功能（Tile 点击 / Goods 拖动），自动识别图层运动时刻生成手指动画"
 }
