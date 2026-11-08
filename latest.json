@@ -1,8 +1,8 @@
 {
-  "version": "5.10.2",
+  "version": "5.10.3",
   "released_at": "2026-11-08",
-  "summary": "Ae效率工具 v5.10.2 更新包",
-  "changelog": "### Changed\n- 【表达式库】内置「弹性」表达式振幅由 0.07 调整为 0.12、衰减由 5 调整为 4，弹性幅度更明显、回弹更缓；其余公式与注释保持原样。\n\n### Fixed\n- 【弹窗 UI】删除表达式时的系统白框改为面板统一暗色确认弹窗；全仓不再有任何系统原生 alert / confirm 调用。\n- 【弹窗 UI】提示 / 输入 / 确认 / 检查更新四类弹窗宽度统一为 340px，由 CSS 统一接管，消除 300 / 340 / 380 三种尺寸及关闭后宽度漂移。\n- 【更新说明】发版脚本生成对外更新说明时剥离黄色高亮标签，GitHub Releases 页面与更新面板都不再出现黄色底色的文字；仓库内文档仍按约定保留高亮。\n- 【规则文档】新增「弹窗 UI 统一规范」并明确对外产物不加高亮，按约定清掉历史黄色高亮，只保留本次改动。",
-  "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.2/ae-efficiency-tool-v5.10.2.zip",
-  "zip_size": 122511
+  "summary": "Ae效率工具 v5.10.3 更新包",
+  "changelog": "### Fixed\n- 【检查更新】检查更新弹窗恢复 380px 宽度，改用 CSS 类 `modal-wide` 提供尺寸（仍不写内联 width），缓解内容拥挤。\n- 【弹窗 UI】删除表达式的确认弹窗补齐标题与按钮之间的 16px 留白，与提示弹窗的间距基准一致；不再出现文字紧贴按钮。\n- 【规则文档】把弹窗间距、按钮行与宽度例外写成明确标准，同步进 CODING_RULES.md，并清掉上一版遗留的黄色高亮。",
+  "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.3/ae-efficiency-tool-v5.10.3.zip",
+  "zip_size": 122558
 }
