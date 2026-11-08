@@ -1,1 +1,8 @@
-{"version": "5.10.1", "released_at": "2026-11-07", "summary": "Ae效率工具 v5.10.1 更新包", "changelog": "### Fixed\n- <mark>【检查更新】更新说明只显示当前这一个版本的变更内容，不再把整份历史日志堆进弹窗。</mark>\n- <mark>【表达式】编辑并保存后，本次使用期间一直沿用修改后的内容，切换标签页不会再变回旧内容；重启 AE 后自动复原。</mark>\n- <mark>【替换素材源】成功、失败与提示弹窗统一为面板的暗色弹窗样式，不再弹出系统白框。</mark>\n- <mark>【生长动画】中心点标记层 AeEffGrowthCenter 设为参考图层：合成里仍看得见、可拖动定位，渲染输出自动忽略，不会再被渲进画面。</mark>\n- <mark>【工程目录】双击改名、上移、下移后立即刷新列表并正确跟随选中项；此前只有添加和删除会刷新，改名和排序看起来「没反应」。</mark>\n", "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.1/ae-efficiency-tool-v5.10.1.zip", "zip_size": 122382}
+{
+  "version": "5.10.2",
+  "released_at": "2026-11-08",
+  "summary": "Ae效率工具 v5.10.2 更新包",
+  "changelog": "### Changed\n- <mark>【表达式库】内置「弹性」表达式振幅由 0.07 调整为 0.12、衰减由 5 调整为 4，弹性幅度更明显、回弹更缓；其余公式与注释保持原样。</mark>\n\n### Fixed\n- <mark>【弹窗 UI】删除表达式时的系统白框改为面板统一暗色确认弹窗；全仓不再有任何系统原生 alert / confirm 调用。</mark>\n- <mark>【弹窗 UI】提示 / 输入 / 确认 / 检查更新四类弹窗宽度统一为 340px，由 CSS 统一接管，消除 300 / 340 / 380 三种尺寸及关闭后宽度漂移。</mark>\n- <mark>【规则文档】新增「弹窗 UI 统一规范」，明确后续新功能必须复用统一弹窗；按约定清掉历史黄色高亮，只保留本次改动。</mark>",
+  "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.2/ae-efficiency-tool-v5.10.2.zip",
+  "zip_size": 122511
+}
