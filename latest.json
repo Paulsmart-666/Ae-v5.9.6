@@ -1,8 +1,8 @@
 {
-  "version": "5.11.0",
+  "version": "5.11.1",
   "released_at": "2026-11-09",
-  "summary": "Ae效率工具 v5.11.0 更新包",
-  "changelog": "### Added\n- 【工程目录】新增「导出 txt / 导入 txt」：编辑好文件夹列表后可导出一份 UTF-8 带 BOM 的文本（一行一个名称），换机、重装 AE 或列表丢失时导入即可恢复；导出位置由面板保存对话框选择，并在状态栏与弹窗中告知路径。\n- 【工程目录】导入后自动写回：先写面板本地缓存，再写入 AE 偏好；AE 未连接或写入失败时导入结果仍保留、重启仍可恢复，不需要每次重启重复导入。\n- 【工程目录】导入覆盖前使用面板确认弹窗；解析时剥 BOM、兼容 CRLF、去空行去重、限制单行长度与总数，内容无效时保留原列表，不先清空。\n\n### Changed\n- 【工程目录】「保存与恢复」区增加导入/导出按钮与说明，导入导出复用表达式库已有的文件选择、保存对话框与写回模式。",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.0/ae-efficiency-tool-v5.11.0.zip",
-  "zip_size": 241143
+  "summary": "Ae效率工具 v5.11.1 更新包",
+  "changelog": "\n### Changed\n- \u3010\u5de5\u7a0b\u76ee\u5f55\u3011\u300c\u5bfc\u51fa txt / \u5bfc\u5165 txt\u300d\u6309\u94ae\u6539\u540d\u4e3a\u300c\u5bfc\u51fa\u76ee\u5f55 / \u5bfc\u5165\u76ee\u5f55\u300d\uff0c\u754c\u9762\u4e0d\u518d\u51fa\u73b0\u7528\u6237\u4e0d\u6613\u7406\u89e3\u7684 txt \u5b57\u6837\uff1b\u6587\u4ef6\u683c\u5f0f\u3001AE \u504f\u597d\u5199\u56de\u4e0e\u5bfc\u5165\u5bfc\u51fa\u903b\u8f91\u5747\u4e0d\u53d8\u3002",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.1/ae-efficiency-tool-v5.11.1.zip",
+  "zip_size": 240857
 }
