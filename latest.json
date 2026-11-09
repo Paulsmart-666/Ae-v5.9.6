@@ -1,8 +1,8 @@
 {
-  "version": "5.10.3",
-  "released_at": "2026-11-08",
-  "summary": "Ae效率工具 v5.10.3 更新包",
-  "changelog": "### Fixed\n- 【检查更新】检查更新弹窗恢复 380px 宽度，改用 CSS 类 `modal-wide` 提供尺寸（仍不写内联 width），缓解内容拥挤。\n- 【弹窗 UI】删除表达式的确认弹窗补齐标题与按钮之间的 16px 留白，与提示弹窗的间距基准一致；不再出现文字紧贴按钮。\n- 【规则文档】把弹窗间距、按钮行与宽度例外写成明确标准，同步进 CODING_RULES.md，并清掉上一版遗留的黄色高亮。",
-  "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.3/ae-efficiency-tool-v5.10.3.zip",
-  "zip_size": 122558
+  "version": "5.10.4",
+  "released_at": "2026-11-09",
+  "summary": "Ae效率工具 v5.10.4 更新包",
+  "changelog": "### Fixed\n- 【工程目录】修复保存后的文件夹列表在重启 AE 后显示为丢失：面板启动时立即读取本地缓存并渲染，不再等待约 27.5 秒后的延迟加载。\n- 【工程目录】文件夹列表改为同时写入 AE 偏好与面板本地缓存，任一份可用都能自动恢复；保存严格校验 AE 写入结果，异常或空响应明确提示「保存失败」，不再出现「已保存至默认」假成功。\n- 【工程目录】读取失败时保留现有列表，不再写回默认列表覆盖偏好；「恢复默认」同步清除本地缓存，避免重启后旧列表回填；AE 连接成功后 0.5 秒即读取偏好列表。",
+  "zip_url": "https://github.com/Paulsmart-666/ae-efficiency-tool-releases/releases/download/v5.10.4/ae-efficiency-tool-v5.10.4.zip",
+  "zip_size": 237390
 }
