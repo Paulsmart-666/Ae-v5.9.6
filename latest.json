@@ -1,1 +1,8 @@
-{"version": "5.11.8", "released_at": "2026-11-15", "summary": "Ae效率工具 v5.11.8 更新包", "changelog": "### Changed\n- 【界面】工具页右上角与激活页的「使用指南」按钮改用**线上正式版**飞书文档（https://my.feishu.cn/docx/D82vdIqw9orzDaxFVCpc0yEdnBS），点击后直接跳转；未激活也能查看，其余行为不变。\n- 【规则】`CODING_RULES.md` 明确两份文档分工：GitHub 双写约定仍只同步编辑底稿（DXkZdMI6yoJ2u8x7d97cuBS3nnf），线上正式版由使用者手工维护，两者之间不做任何自动同步。\n- 【测试】回归断言改为校验线上版链接，新增「不再指向编辑底稿」断言，回归测试 145 → 146 项全过。", "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.8/ae-efficiency-tool-v5.11.8.zip", "zip_size": 241042}
+{
+  "version": "5.11.9",
+  "released_at": "2026-11-16",
+  "summary": "Ae效率工具 v5.11.9 更新包",
+  "changelog": "### Fixed - 【语音】修复「试听音色 / 选中生成」在部分网络下报 `HTTP 302` 无法出声：生成请求原本只走 Node 直连且不跟随重定向，遇 ElevenLabs 地域限制（302 跳 geo-restriction）即失败。现扩展降级条件，遇到 3xx 重定向时自动改用浏览器通道重试（可跟随系统代理/重定向），拉取音色与生成走同一条可联网通道。 - 【诊断】生成失败若为 3xx 重定向，弹窗直接提示「ElevenLabs 地域限制」；试听/生成失败不再只显示状态栏一行 `HTTP 302`，会给出可操作诊断。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.9/ae-efficiency-tool-v5.11.9.zip",
+  "zip_size": 240649
+}
