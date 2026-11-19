@@ -1,8 +1,8 @@
 {
-  "version": "5.11.9",
-  "released_at": "2026-11-16",
-  "summary": "Ae效率工具 v5.11.9 更新包",
-  "changelog": "### Fixed - 【语音】修复「试听音色 / 选中生成」在部分网络下报 `HTTP 302` 无法出声：生成请求原本只走 Node 直连且不跟随重定向，遇 ElevenLabs 地域限制（302 跳 geo-restriction）即失败。现扩展降级条件，遇到 3xx 重定向时自动改用浏览器通道重试（可跟随系统代理/重定向），拉取音色与生成走同一条可联网通道。 - 【诊断】生成失败若为 3xx 重定向，弹窗直接提示「ElevenLabs 地域限制」；试听/生成失败不再只显示状态栏一行 `HTTP 302`，会给出可操作诊断。",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.9/ae-efficiency-tool-v5.11.9.zip",
-  "zip_size": 240649
+  "version": "5.11.10",
+  "released_at": "2026-11-19",
+  "summary": "Ae效率工具 v5.11.10 更新包",
+  "changelog": "### Fixed\n- 【图层组】建组时生成的组头空物体层默认锁定，在 AE 时间轴里点不中，不再误选干扰。\n- 【图层组】面板的折叠 / 独奏 / 改名 / 解组 / 拖拽排序照常可用（内部临时解锁再恢复）；老工程点一次「🔄 刷新」也会自动补锁。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.11.10/ae-efficiency-tool-v5.11.10.zip",
+  "zip_size": 241633
 }
