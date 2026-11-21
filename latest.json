@@ -1,8 +1,8 @@
 {
-  "version": "5.13.2",
+  "version": "5.13.3",
   "released_at": "2026-11-21",
-  "summary": "Ae效率工具 v5.13.2 更新包",
-  "changelog": "### Fixed\n- 【更新】修复启动后自动更新弹窗在某些启动时序下不弹出的问题：旧逻辑在更新器静默检查「checking」持锁时会误把「已提示」写入本地，导致本次及后续都不再弹。现在改为按检查结果判定，遇到持锁或网络失败会清除标记并延后重试（最多 6 次），确认有新版本才保留「每个新版本只弹一次」的去重标记。弹窗内容、「下载并应用」流程以及顶部「使用指南」入口均未改动。",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.2/ae-efficiency-tool-v5.13.2.zip",
-  "zip_size": 245331
+  "summary": "Ae效率工具 v5.13.3 更新包",
+  "changelog": "### Changed\n- 【棋子排列】「排列设置」的横向间距与纵向间距默认值由 -10 调整为 **-30**；新安装或首次使用该功能即生效，已经保存过的自定义间距不会被覆盖。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.3/ae-efficiency-tool-v5.13.3.zip",
+  "zip_size": 244498
 }
