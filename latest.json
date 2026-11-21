@@ -1,8 +1,8 @@
 {
-  "version": "5.13.3",
+  "version": "5.13.4",
   "released_at": "2026-11-21",
-  "summary": "Ae效率工具 v5.13.3 更新包",
-  "changelog": "### Changed\n- 【棋子排列】「排列设置」的横向间距与纵向间距默认值由 -10 调整为 **-30**；新安装或首次使用该功能即生效，已经保存过的自定义间距不会被覆盖。",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.3/ae-efficiency-tool-v5.13.3.zip",
-  "zip_size": 244498
+  "summary": "Ae效率工具 v5.13.4 更新包",
+  "changelog": "### Removed\n- 【更新】移除「启动 AE 后检测到新版本自动弹出更新窗口」的功能。该自动提醒依赖更新器内部缓存与静默检查时序，在部分环境下无法可靠触发；现统一改为手动提醒——顶部「🔄 检查更新」按钮在有新版本时依旧会高亮并显示小红点 ●，点开即可查看更新说明并「下载并应用」。手动检查更新流程、更新窗口内容、激活与使用指南入口均不受影响。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.4/ae-efficiency-tool-v5.13.4.zip",
+  "zip_size": 239059
 }
