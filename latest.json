@@ -1,6 +1,8 @@
 {
-  "version": "5.12.0",
-  "summary": "Ae效率工具 v5.12.0 更新包",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.12.0/ae-efficiency-tool-v5.12.0.zip",
-  "zip_size": 238784
+  "version": "5.13.0",
+  "released_at": "2026-11-21",
+  "summary": "Ae效率工具 v5.13.0 更新包",
+  "changelog": "### Added\n- 【更新】启动 AE 打开面板后，若检测到新版本会自动弹出更新说明弹窗（无需再手动点「检查更新」），可直接点「下载并应用」升级；每个新版本只自动弹一次，关闭后不再重复打扰，出新版才会再提示。\n\n### Changed\n- 【界面】恢复激活页与工具页顶部的「联系管理员」入口：点击打开管理员的飞书「添加联系人」邀请页并弹出提示，用于获取用户 ID / 密钥或其他帮助（v5.11.7 起曾被改为「使用指南」，本次还原）。\n- 【更新】远端 `latest.json` 缺失 changelog 字段导致更新说明空白的问题，本版起随发版自动带上完整变更记录；并在发版后回拉闸门增加 changelog 字段校验防止复发。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.0/ae-efficiency-tool-v5.13.0.zip",
+  "zip_size": 242254
 }
