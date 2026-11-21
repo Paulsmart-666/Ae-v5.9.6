@@ -1,8 +1,8 @@
 {
-  "version": "5.13.1",
+  "version": "5.13.2",
   "released_at": "2026-11-21",
-  "summary": "Ae效率工具 v5.13.1 更新包",
-  "changelog": "### Fixed\n- 【界面】修正 v5.13.0 的误改：面板**顶部常驻按钮恢复为「使用指南」**（点击打开飞书在线文档、不弹窗），仅**激活弹窗内**保留「联系管理员」入口（打开飞书邀请页 + 提示）。两个按钮各司其职，互不影响。",
-  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.1/ae-efficiency-tool-v5.13.1.zip",
-  "zip_size": 245330
+  "summary": "Ae效率工具 v5.13.2 更新包",
+  "changelog": "### Fixed\n- 【更新】修复启动后自动更新弹窗在某些启动时序下不弹出的问题：旧逻辑在更新器静默检查「checking」持锁时会误把「已提示」写入本地，导致本次及后续都不再弹。现在改为按检查结果判定，遇到持锁或网络失败会清除标记并延后重试（最多 6 次），确认有新版本才保留「每个新版本只弹一次」的去重标记。弹窗内容、「下载并应用」流程以及顶部「使用指南」入口均未改动。",
+  "zip_url": "https://github.com/Paulsmart-666/Ae-v5.9.6/releases/download/v5.13.2/ae-efficiency-tool-v5.13.2.zip",
+  "zip_size": 245331
 }
